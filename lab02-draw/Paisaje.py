@@ -13,7 +13,7 @@ def draw_sky():
 
 def draw_sun():
     """Dibuja el sol"""
-    arcade.draw_circle_filled(100, 350, 50, arcade.color.YELLOW)
+    arcade.draw_circle_filled(100, 350, 50, arcade.color.SUNGLOW)
 
 
 def draw_mountains():
