@@ -1,6 +1,6 @@
 import arcade
 
-SCREEN_WIDTH = 600
+SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 400
 
 SKY_COLOR = arcade.color.SKY_BLUE
@@ -19,7 +19,9 @@ def draw_sun():
 def draw_mountains():
     """Dibuja las montañas"""
     arcade.draw_triangle_filled(0, 0, 150, 200, 300, 0, arcade.color.DARK_GRAY)
+    arcade.draw_triangle_filled(200, 0, 150, 200, 300, 0, arcade.color.TAUPE_GRAY)
     arcade.draw_triangle_filled(200, 0, 350, 150, 500, 0, arcade.color.DIM_GRAY)
+    arcade.draw_triangle_filled(400, 0, 350, 150, 500, 0, arcade.color.TROLLEY_GREY)
 
 
 def on_draw(delta_time):
